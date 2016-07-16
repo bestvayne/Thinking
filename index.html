@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/object.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/uikit/2.25.0/css/uikit.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <script src="//cdn.bootcss.com/uikit/2.25.0/js/uikit.js"></script>
+</head>
+
+<body>
+
+
+
+    <div class="titstyle">
+        <h3 id="titdes" style="color:white;">{{message}}</h3>
+    </div>
+
+    <div class="paperbodystyle">
+        <p id="bodydes">
+            {{bodydes}}
+        </p>
+        <br>
+        <input type="text" class="textare">
+        <div class="buttonPosStyle">
+            <button type="button" class="btn btn-info">Change Text</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- <br>
+    <div v-show="ok" class="animated" transition="bounce">
+        <ul class="uk-nav uk-nav-dropdown" id="example-2">
+            <li v-for="item in items">
+                <a href="">{{ parentMessage }} - {{ $index }} - {{item.message}}</a>
+                 日期函数
+                    <script>
+                        document.write(Date());
+                    </script>
+
+            </li>
+        </ul>
+    </div>
+
+
+    <ul id="myTab" class="nav nav-tabs">
+        <li class="dropdown">
+            <a href="#" id="myTabdrop1" class="dropdown-toggle" data-toggle="dropdown">查看分期歌词解读<b class="caret"></b></a>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#one" tabindex="-1" data-toggle="tab">第一期歌词解读</a></li>
+                <li><a href="#two" tabindex="-1" data-toggle="tab">第二期歌词解读</a></li>
+            </ul>
+        </li>
+    </ul>
+
+
+
+    <div id="example-1" class="tab-content">
+        <div class="tab-pane fade" id="one" v-bind:style="{ color: activeColor, fontSize: fontSize + 'px' }">
+            {{{ name }}}
+        </div>
+
+        <div class="tab-pane fade" id="two">
+            <p name="secp">They say we are what we are</p>
+            <p>But we don't have to be</p>
+            <p>I'm bad behavior but I do it in the best way</p>
+            <p>I'll be the watcher <span class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Watcher和guard都是我们所说的守护者">watcher</span></p>
+            <p>Of the <span class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Etermal,和歌名immortal是同义词，都是“不朽的”的意思">eternal</span> flame</p>
+        </div>
+    </div>
+
+    <div id="example-1" style="text-align: center; color: red;">
+
+    </div> -->
+
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/object.js"></script>
+
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+    <!-- <script>
+        //头图点击跳转至player
+        function scrollWindow() {
+            window.scrollTo(0, 900);
+        };
+
+        //歌词解读，模块框JS
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+
+        //modal JS- jQueryclick事件调用 缺点：增加了HTML页面代码复杂度，且对SEO不友好
+        $("#abtn").click(function() {
+            $("#myModal").modal("show");
+        });
+        //qqfm modal js jQueryclick事件调用
+        $("#qqfm").click(function() {
+            $("#qqModal").modal("show");
+        });
+
+        //歌词解读 标签页JS 设置为打开页面直接显示#xxx内容
+        $('#myTab a[href="#one"]').tab('show');
+    </script> -->
+</body>
+
+</html>

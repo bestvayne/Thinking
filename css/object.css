@@ -1,0 +1,37 @@
+/*
+* @Author: Vayne
+* @Date:   2016-06-08 18:55:21
+* @Last Modified by:   Vayne
+* @Last Modified time: 2016-07-11 17:00:21
+*/
+
+.titstyle {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    height: 160px;
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 30px;
+    background-color: #3853e4;
+}
+.paperbodystyle {
+    color: #000100;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    height: 500px;
+    width: 320px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 1em rgb(207,207,207);
+}
+.textare{
+    width: 200px;
+    height: 30px;
+}
+.buttonPosStyle{
+    position:relative;
+    margin-top: 300px;
+    text-align: center;
+}
