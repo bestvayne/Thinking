@@ -1,0 +1,6 @@
+.avoscloud/
+node_modules
+package.json
+gulpfile.js
+.DS_Store
+.git
